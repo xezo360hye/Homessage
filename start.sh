@@ -1,0 +1,1 @@
+nc -lkp9000 -e "$(dirname $0)/core.sh $(dirname $0)"
